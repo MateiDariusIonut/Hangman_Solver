@@ -117,7 +117,7 @@ for linie in linii:
         status = "FAIL"
 
     #Adauga rezultatul la lista de rezultate
-    rezultate.append(f"{id_joc}. Număr încercări: {incercari_cuv}, Cuvânt găsit: {cuvant_gasit}, Status: {status}, Litere incercate: {' '.join(litere_incercate)}")
+    rezultate.append(f"{id_joc}. Număr încercări: {incercari_cuv}, Cuvânt găsit: {cuvant_gasit}, Status: {status}, Litere încercate: {' '.join(litere_incercate)}")
 
 #Scrie rezultatele in fisierul de iesire
 with open("../results/out.csv", "w", encoding="utf-8") as f:
