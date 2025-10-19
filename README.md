@@ -61,4 +61,4 @@ python solve_hangman.py
   ```
 
 ## **Limitări**
-**Pentru ca algoritmul să fie cât mai eficient și să găsească cuvântul căutat din cât mai puține încercări este nevoie ca acesta să se afle în fișierul resource.txt, altfel algoritmul v-a propune litere după frecvența lor, ceea ce poate duce la un număr mai mare de pași**
+**Pentru ca algoritmul să fie cât mai eficient și să găsească cuvântul căutat din cât mai puține încercări este nevoie ca acesta să se afle în fișierul resource.txt, altfel algoritmul v-a propune litere după frecvența lor, ceea ce poate duce la un număr mai mare de pași.**
