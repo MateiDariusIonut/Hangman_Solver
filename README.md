@@ -9,7 +9,7 @@ Acest proiect este un solver automat pentru jocul Hangman (Spânzurătoarea) car
 
 ## **Cum functionează?**
 1. Parcurge fișierul cu datele de intrare.
-2. Pentru fiecare cuvânt care trebuie ghicit selectează candidați posibili.
+2. Pentru fiecare cuvânt care trebuie ghicit selectează candidații posibili.
 3. Din lista de candidați selectează literele care nu au fost încercate și o incearcă pe prima.
 4. Dacă s-a găsit o literă bună se actualizează lista de candidați.
 5. Se repetă procedeul până când cuvântul este identificat.
