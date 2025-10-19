@@ -24,6 +24,7 @@ def gaseste_candidati(pattern, dictionar):
             if lit != '*' and cuvant[i] != lit:
                 potrivit = False
                 break
+        #Daca a gasit un candidat potrivit il adauga in lista de candidati
         if potrivit:
             candidati.append(cuvant)
     return candidati
@@ -33,6 +34,7 @@ Functie care gaseste urmatoarea litera de incercat din cuvintele candidate
 Aceasta cauta litere in pozitii necunoscute notate cu *, care nu au fost incercate inca
 '''
 def litera_urmatoare(candidati, pattern, incercate):
+
     litere_posibile = []
 
     #Colecteaza toate literele posibile din pozitiile necunoscute ale cuvintelor candidate
@@ -59,6 +61,7 @@ erori = []
 for linie in linii:
     #Imparte linia in componente: ID, pattern, cuvant tinta separate prin ";"
     parti = linie.strip().split(";")
+
     if len(parti) < 3:
         erori.append(f"Linie invalidă: {linie.strip()}")
         continue
