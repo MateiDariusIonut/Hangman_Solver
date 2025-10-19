@@ -7,7 +7,7 @@ Acest proiect este un solver automat pentru jocul Hangman (Spânzurătoarea) car
 - **Encoding UTF-8 pentru suportul diacriticelor**
 - **Fișiere CSV**
 
-## **Cum functionează?**
+## **Cum funcționează?**
 1. Parcurge fișierul cu datele de intrare.
 2. Pentru fiecare cuvânt care trebuie ghicit selectează candidații posibili.
 3. Din lista de candidați selectează literele care nu au fost încercate și o incearcă pe prima.
